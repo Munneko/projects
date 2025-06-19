@@ -1,0 +1,64 @@
+@use "./variables" as *;
+
+.skills {
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+
+  &__category {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  &__category-title {
+    color: $primary-color;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &__item {
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+    }
+
+    &-name {
+      font-weight: 500;
+    }
+
+    &-level {
+      color: $dark-gray;
+    }
+
+    &-bar {
+      height: 8px;
+      background-color: $light-gray;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    &-progress {
+      height: 100%;
+      background-color: $primary-color;
+      border-radius: 4px;
+      transition: width 1s ease-in-out;
+      transform-origin: left;
+    }
+  }
+}
