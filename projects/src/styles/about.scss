@@ -1,0 +1,55 @@
+@use "./variables" as *;
+
+.about {
+  background-color: $light-gray;
+
+  &__content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  &__text {
+    p {
+      margin-bottom: 1.5rem;
+      font-size: 1.125rem;
+      line-height: 1.7;
+      color: $dark-gray;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+  }
+
+  &__stat {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    h3 {
+      font-size: 2.5rem;
+      color: $primary-color;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: $dark-gray;
+      font-weight: 500;
+    }
+  }
+}
