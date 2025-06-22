@@ -34,7 +34,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className={"section skills"}>
+    <section id="skills" className={"section skills"}>
       <div className="container">
         <h2 className="section-title">My Skills</h2>
         <div className="skills__grid">
