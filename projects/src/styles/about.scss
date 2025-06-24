@@ -53,3 +53,8 @@
     }
   }
 }
+
+.app.dark .about__stat {
+  background-color: $dark-gray-bg;
+  color: $dark-text;
+}

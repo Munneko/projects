@@ -45,7 +45,7 @@
   &__title {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: $text-color;
+    color: $secondary-color;
   }
 
   &__description {
@@ -103,4 +103,9 @@
       color: white;
     }
   }
+}
+
+.app.dark .projects__card {
+  background-color: $dark-gray-bg;
+  color: $dark-text;
 }

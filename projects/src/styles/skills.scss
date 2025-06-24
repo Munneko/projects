@@ -62,3 +62,8 @@
     }
   }
 }
+
+.app.dark .skills__category {
+  background-color: $dark-gray-bg;
+  color: $dark-text;
+}

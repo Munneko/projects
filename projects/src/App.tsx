@@ -1,5 +1,4 @@
-import { useState } from "react";
-import "./App.css";
+import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
@@ -8,17 +7,25 @@ import "./styles/main.scss";
 
 function App() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
-  const toggleTheme = () => {
+
+  useEffect(() => {
+    document.body.classList.toggle("dark", theme === "dark");
+  }, [theme]);
+
+  function toggleTheme() {
     setTheme(theme === "light" ? "dark" : "light");
-  };
+  }
+
   return (
-    <Router>
-      <Navbar />
+    <div className={"app" + (theme === "dark" ? " dark" : "") }>
+      <Router>
+        <Navbar />
         <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
