@@ -7,52 +7,34 @@ const About = () => {
         <div className="about__content">
           <div className="about__text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed
-              finibus augue. Aliquam urna turpis, dapibus vel dolor sit amet,
-              convallis placerat odio. Donec hendrerit, neque ut sollicitudin
-              porta, erat metus iaculis nibh, ut blandit ante massa sed diam.
-              Vestibulum at orci eleifend, elementum tellus rutrum, mattis est.
-              Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Aliquam tincidunt purus at erat
-              commodo ullamcorper. Etiam sagittis pretium est, a ultricies velit
-              tristique et. Aenean porttitor augue vitae lacinia lacinia.
-              Vestibulum convallis pretium mi, eget varius nulla laoreet vitae.
+              I’m a junior frontend developer with a passion for creating modern
+              and user-friendly interfaces. I enjoy solving non-trivial tasks
+              and exploring new technologies. I’ve built several web
+              applications to practice real-world logic, including shopping
+              carts, search, filters, and authentication flows.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed
-              finibus augue. Aliquam urna turpis, dapibus vel dolor sit amet,
-              convallis placerat odio. Donec hendrerit, neque ut sollicitudin
-              porta, erat metus iaculis nibh, ut blandit ante massa sed diam.
-              Vestibulum at orci eleifend, elementum tellus rutrum, mattis est.
-              Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Aliquam tincidunt purus at erat
+              My stack includes React, Next.js, TypeScript, Zustand, Tailwind,
+              and various UI libraries. I also have experience integrating APIs,
+              including AI-powered services, and developing simple bots for
+              Discord and Telegram using JavaScript and Python.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed
-              finibus augue. Aliquam urna turpis, dapibus vel dolor sit amet,
-              convallis placerat odio. Donec hendrerit, neque ut sollicitudin
-              porta, erat metus iaculis nibh, ut blandit ante massa sed diam.
-              Vestibulum at orci eleifend, elementum tellus rutrum, mattis est.
-              Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Aliquam tincidunt purus at erat
-              commodo ullamcorper. Etiam sagittis pretium est, a ultricies velit
-              tristique et. Aenean porttitor augue vitae lacinia lacinia.
-              Vestibulum convallis pretium mi, eget varius nulla laoreet vitae.
+              I studied at a specialized school with an advanced English
+              program, and I’m currently pursuing a degree at KPI (specialty 174
+              – Automation, Computer-Integrated Technologies and Robotics). I’m
+              self-driven, detail-oriented, and always eager to learn and
+              improve through real projects and challenges.
             </p>
           </div>
-          <div className="about__stats">
-            <div className="about__stat">
-              <h3>Lorem</h3>
-              <p>Lorem ipsum</p>
-            </div>
-            <div className="about__stat">
-              <h3>Lorem</h3>
-              <p>Lorem ipsum</p>
-            </div>
-            <div className="about__stat">
-              <h3>Lorem</h3>
-              <p>Lorem ipsum</p>
-            </div>
+          <div className="about__stats"></div>
+          <div className="about__stat">
+            <h3>6 months</h3>
+            <p>commercial coding experience</p>
+          </div>
+          <div className="about__stat">
+            <h3>✅</h3>
+            <p>commercial project in progress</p>
           </div>
         </div>
       </div>

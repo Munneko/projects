@@ -2,28 +2,35 @@ import "../styles/Projects.scss";
 const Projects = () => {
   const projects = [
     {
-      title: "Test Project 1",
+      title: "E-Shop",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-      technologies: ["Test1", "Test2", "Test3"],
-      image: "",
+        "An online store featuring a product catalog with cards and detailed pages, product search, full shopping cart functionality, user authentication (login/register), and order placement with payment. Includes a base structure for user profile and order tracking.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Zustand",
+        "Shadcn/UI",
+        "Tailwind",
+        "Vite",
+      ],
+      image: "/images/e-shop.png",
       link: "#",
-      github: "#",
+      github: "https://github.com/Munneko/e-shop",
     },
     {
-      title: "Test Project 2",
+      title: "To-Do List App",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.",
-      technologies: ["Test1", "Test2", "Test3"],
-      image: "",
+        "A simple and clean to-do application with task creation, deletion, and completion features. Good example of working with components, props, and basic state management.",
+      technologies: ["React", "TypeScript", "Redux", "CSS Modules", "Vite"],
+      image: "/images/todo-app.png",
       link: "#",
-      github: "#",
+      github: "https://github.com/Munneko/to-do",
     },
     {
-      title: "Test Project 3",
+      title: "In Progress / Commercial Project",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.",
-      technologies: ["Test1", "Test2", "Test3"],
+        "Started working on a commercial project, which limited the time available for personal projects. More updates and new work coming soon.",
+      technologies: ["React", "TypeScript", "Redux", "Next.js", "UI Libraries"],
       image: "",
       link: "#",
       github: "#",

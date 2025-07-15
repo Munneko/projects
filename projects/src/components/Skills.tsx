@@ -2,33 +2,30 @@ import "../styles/skills.scss";
 const Skills = () => {
   const skills = [
     {
-      category: "Test",
+      category: "Frontend Basics",
       items: [
-        { name: "Test", level: 90 },
-        { name: "Test", level: 0 },
-        { name: "Test", level: 50 },
-        { name: "Test", level: 25 },
-        { name: "Test", level: 1 },
+        { name: "HTML", level: 90 },
+        { name: "CSS / Sass", level: 85 },
+        { name: "JavaScript", level: 80 },
+        { name: "TypeScript", level: 70 },
       ],
     },
     {
-      category: "Test1",
+      category: "Frameworks & Libraries",
       items: [
-        { name: "Test", level: 100 },
-        { name: "Test", level: 100 },
-        { name: "Test", level: 100 },
-        { name: "Test", level: 100 },
-        { name: "Test", level: 100 },
+        { name: "React", level: 80 },
+        { name: "Next.js", level: 40 },
+        { name: "Redux / Zustand", level: 65 },
+        { name: "React Router", level: 75 },
+        { name: "UI Libraries (shadcn, Tailwind, etc.)", level: 80 },
       ],
     },
     {
-      category: "Test2",
+      category: "Tools & Other",
       items: [
-        { name: "Test", level: 100 },
-        { name: "Test", level: 100 },
-        { name: "Test", level: 100 },
-        { name: "Test", level: 100 },
-        { name: "Test", level: 100 },
+        { name: "Git / GitHub", level: 85 },
+        { name: "Vite", level: 80 },
+        { name: "Vercel", level: 60 },
       ],
     },
   ];

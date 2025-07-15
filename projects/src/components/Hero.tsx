@@ -5,29 +5,19 @@ const Hero = () => {
       <div className="hero__bg"></div>
       <div className="container hero__container">
         <div className="hero__content">
-          <h1 className="hero__title">
-            Hi, I'm Diana
-          </h1>
-          <h2 className="hero__subtitle">smth</h2>
+          <h1 className="hero__title">Hi, I'm Diana</h1>
+          <h2 className="hero__subtitle">Junior Frontend Developer</h2>
           <p className="hero__description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            molestie at ligula non pretium. Etiam egestas erat ut vehicula
-            finibus. Phasellus vel tortor mi. Vestibulum eu ligula vitae ante
-            efficitur fringilla quis sit amet dui. Cras fermentum aliquam
-            tempus. Phasellus consectetur mauris quam, ac dignissim turpis
-            iaculis ut. Donec eu tincidunt orci, a porta libero. Duis venenatis
-            aliquam urna, non condimentum augue auctor in. Curabitur non metus
-            risus. Aliquam rhoncus urna semper ultrices ultricies. Sed dignissim
-            est magna, porttitor finibus justo rutrum vel. Donec scelerisque
-            placerat mauris sit amet congue. Curabitur scelerisque felis quis
-            elit sagittis blandit.
+            I specialize in building responsive web applications using React,
+            TypeScript, and modern UI libraries. Passionate about clean code,
+            user-friendly interfaces, and continuous learning. I enjoy solving
+            non-trivial problems and working with new or niche technologies.
+            Currently studying at KPI and constantly improving my skills through
+            practice and side projects.
           </p>
           <div className="hero__cta">
             <a href="#projects" className="btn btn-primary">
-              View My Work
-            </a>
-            <a href="#contact" className="btn btn-outline">
-              Contact Me
+              Examples of technology usage
             </a>
           </div>
         </div>
