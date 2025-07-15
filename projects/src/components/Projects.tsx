@@ -20,10 +20,10 @@ const Projects = () => {
     {
       title: "To-Do List App",
       description:
-        "A simple and clean to-do application with task creation, deletion, and completion features. Good example of working with components, props, and basic state management.",
+        "A straightforward to-do app created specifically to practice managing state with Redux. Includes basic features like adding, deleting, and completing tasks, demonstrating component interaction and state flow.",
       technologies: ["React", "TypeScript", "Redux", "CSS Modules", "Vite"],
       image: "/images/todo-app.png",
-      link: "#",
+      link: " #",
       github: "https://github.com/Munneko/to-do",
     },
     {
